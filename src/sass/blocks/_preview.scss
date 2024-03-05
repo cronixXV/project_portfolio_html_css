@@ -1,0 +1,108 @@
+.preview__me {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    height: 189px;
+    padding-top: 191px;
+    padding-left: 140px;
+}
+
+ h3 {
+    color: rgb(123, 74, 226);
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background: rgba(123, 74, 226, 0.1);
+    width: 160px;
+    height: 45px;
+ }
+
+ h1 {
+    color: rgb(255, 255, 255);
+    font-family: Raleway;
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 61px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-bottom: 16px;
+ }
+
+ .profession {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: justify;
+ }
+
+ .contacts {
+    width: 32px;
+    height: 32px;
+    padding-right: 16px;
+ }
+
+ .avatar {
+   display: flex;
+   flex-direction: column;
+   align-items:center;
+   justify-content: center;
+ }
+
+ .avataricon {
+   position: absolute;
+   margin-top: 300px;
+   margin-left: 40px;
+  }
+
+ .resume {
+   display: flex;
+   flex-direction: column;
+   align-items:end;
+   justify-content: end;
+   padding-top: 90px;
+ }
+
+ .resume__my {
+   padding-right: 110px;
+   color: rgba(123, 74, 226, 0.5);
+   font-family: Raleway;
+   font-size: 16px;
+   font-weight: 600;
+   line-height: 19px;
+   letter-spacing: 0%;
+   text-align: left;
+ }
+
+ .write__me {
+   width: 254px;
+   height: 44px;
+   margin-top: 9px;
+   margin-right: 110px;
+   color: rgba(123, 74, 226, 0.5);
+   background-color: rgb(9, 14, 22);
+   box-sizing: border-box;
+   border: 1px solid rgba(123, 74, 226, 0.5);
+   border-radius: 16px;
+ }
+
+ .write__whatsapp {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 5px;
+   color: rgba(123, 74, 226, 0.5);
+   font-size: 16px;
+   font-weight: 600;
+   line-height: 19px;
+   letter-spacing: 0%;
+ }
+

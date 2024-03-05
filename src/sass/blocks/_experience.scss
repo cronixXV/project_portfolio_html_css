@@ -1,0 +1,97 @@
+.experience {
+    max-width: 1024px;
+    // height: 540px;
+    margin: 0 auto;
+    &__items {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+        align-items:center;
+        margin-top: 370px;
+        gap: 80px;
+    }
+
+    &__item {
+        width: 246px;
+        height: 200px;
+        border: 1px solid rgba(123, 74, 226, 0.5);
+        border-radius: 16px;
+    
+        &_img {
+            margin: 42px 83px 94px 91px;
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            border-style: dashed;
+            width: 72px;
+            height: 64px;
+        }
+    }
+}
+
+.practice {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px ;
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 28px;
+    white-space: nowrap;
+}
+
+
+
+.descr {
+        max-width: 1024px;
+        &__container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            justify-items: center;
+            align-items:center;
+            margin-top: 32px;
+            height: 110px;
+            border-radius: 16px;
+            background: rgba(123, 74, 226, 0.1);
+        }
+
+         &__item {
+            display: flex;
+            justify-content: center;
+            width: 205px;
+            height: 63px;
+           
+
+        &_title {
+            display: flex;
+            justify-content: center;
+            // width: 205px;
+            // height: 63px;
+        }
+        
+    }
+}
+
+.practice__projects {
+    color: rgb(123, 74, 226);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    white-space: nowrap;
+}
+
+.descr__heading {
+    // margin-top: 45px;
+    color: rgb(123, 74, 226);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+}
