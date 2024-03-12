@@ -30,7 +30,7 @@
 }
 
 .me {
-    color: rgb(123, 74, 226);
+    color: $text-color;
     font-size: 20px;
     font-weight: 700;
     line-height: 23px;
@@ -38,7 +38,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 16px;
-    background: rgba(123, 74, 226, 0.1);
+    background: $second-color;
     width: 160px;
     height: 45px;
 }
@@ -46,7 +46,7 @@
 .me__article {
     margin-bottom: 140px;
     margin-right: 50px;
-    color: rgba(255, 255, 255, 0.5);
+    color: $third-color;
     font-size: 17px;
     font-weight: 400;
     line-height: 25px;
@@ -54,3 +54,11 @@
     text-align: left;
 }
 
+@media screen and (max-width: 767px) {
+    .aboutme {
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+
+    
+}

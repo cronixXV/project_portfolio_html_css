@@ -8,7 +8,7 @@
 }
 
  .hello {
-    color: rgb(123, 74, 226);
+    color: $text-color;
     font-size: 20px;
     font-weight: 700;
     line-height: 23px;
@@ -16,13 +16,13 @@
     justify-content: center;
     align-items: center;
     border-radius: 16px;
-    background: rgba(123, 74, 226, 0.1);
+    background: $fifth-color;
     width: 160px;
     height: 45px;
  }
 
  h1 {
-    color: rgb(255, 255, 255);
+    color: $second-text-color;
     font-family: Raleway;
     font-size: 45px;
     font-weight: 800;
@@ -33,7 +33,7 @@
  }
 
  .profession {
-    color: rgba(255, 255, 255, 0.5);
+    color: $third-color;
     font-family: Raleway;
     font-size: 20px;
     font-weight: 400;
@@ -71,7 +71,7 @@
 
  .resume__my {
    padding-right: 110px;
-   color: rgba(123, 74, 226, 0.5);
+   color: $fourth-color;
    font-family: Raleway;
    font-size: 16px;
    font-weight: 600;
@@ -85,10 +85,10 @@
    height: 44px;
    margin-top: 9px;
    margin-right: 110px;
-   color: rgba(123, 74, 226, 0.5);
-   background-color: rgb(9, 14, 22);
+   color: $fourth-color;
+   background-color: $main-color;
    box-sizing: border-box;
-   border: 1px solid rgba(123, 74, 226, 0.5);
+   border: 1px solid $fourth-color;
    border-radius: 16px;
  }
 
@@ -96,11 +96,30 @@
    display: flex;
    align-items: center;
    justify-content: center;
-   margin-top: 5px;
-   color: rgba(123, 74, 226, 0.5);
+   color: $fourth-color;
    font-size: 16px;
    font-weight: 600;
    line-height: 19px;
    letter-spacing: 0%;
  }
 
+ @media screen and (max-width: 767px) {
+  .preview__article {
+    display: block;
+    margin-top: 360px;
+}
+
+.hello {
+  width: 120px !important;
+  font-size: 17px !important;
+}
+
+.profession {
+  display: none;
+
+}
+
+.resume {
+  margin-top: 300px;
+}
+ }

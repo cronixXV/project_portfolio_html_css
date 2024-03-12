@@ -11,7 +11,7 @@
     align-items: center;
     &_article {
         margin-bottom: 28px;
-        color: rgb(123, 74, 226);
+        color: $text-color;
         font-size: 20px;
         font-weight: 700;
         line-height: 23px;
@@ -19,7 +19,7 @@
         justify-content: center;
         align-items: center;
         border-radius: 16px;
-        background: rgba(123, 74, 226, 0.1);
+        background: $fifth-color;
         width: 160px;
         height: 45px;
     }
@@ -34,9 +34,9 @@
     margin-left: 340px;
     width: 246px;
     height: 60px;
-    background: rgb(9, 14, 22);
+    background: $main-color;
     box-sizing: border-box;
-    border: 1px solid rgba(123, 74, 226, 0.5);
+    border: 1px solid $fourth-color;
     border-radius: 16px;
 }
 
@@ -45,7 +45,7 @@
     align-items: center;
     justify-content: center;
     margin-top: 14px;
-    color: rgba(123, 74, 226, 0.5);
+    color: $fourth-color;
     font-size: 16px;
     font-weight: 600;
     line-height: 19px;
@@ -63,14 +63,14 @@
 
     &__article {
         margin-top: 7px;
-        color: rgb(123, 74, 226);
+        color: $text-color;
         font-size: 20px;
         font-weight: 400;
         line-height: 23px;
     }
 
     &__example {
-        color: rgba(255, 255, 255, 0.5);
+        color: $third-color;
         font-size: 20px;
         font-weight: 400;
         line-height: 23px;
@@ -87,9 +87,37 @@
 }
 
 .page__text {
-    color: rgba(123, 74, 226, 0.5);
+    color: $fourth-color;
     font-size: 20px;
     font-weight: 600;
     line-height: 23px;
     text-align: left;
+}
+
+@media screen and (max-width: 767px) {
+    .reach__me {
+        margin-right: 100px !important;
+        &_article {
+            margin-right: 395px !important;
+        }
+    }
+
+    .buttons {
+            position: relative;
+            right: 350px;
+            bottom: 150px
+        }
+
+    .mail {
+        position: relative;
+        right: 700px;
+        bottom: 150px
+    }
+    
+    .pageup {
+        position: relative;
+        right: 260px;
+        bottom: 50px
+    }
+
 }

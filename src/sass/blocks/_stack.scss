@@ -8,7 +8,7 @@
         margin-left: 90px;
         &_title {
         margin-bottom: 24px;
-        color: rgb(123, 74, 226);
+        color: $text-color;
         font-size: 20px;
         font-weight: 700;
         line-height: 23px;
@@ -16,7 +16,7 @@
         justify-content: center;
         align-items: center;
         border-radius: 16px;
-        background: rgba(123, 74, 226, 0.1);
+        background: $fifth-color;
         width: 160px;
         height: 45px;
         }
@@ -25,7 +25,7 @@
         }
         &_descr {
         margin-bottom: 40px;
-        color: rgba(255, 255, 255, 0.5);
+        color: $third-color;
         font-size: 24px;
         font-weight: 400;
         line-height: 28px;
@@ -45,5 +45,11 @@
         margin-bottom: 65px;
         width: 63px;
         height: 63px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .skills {
+        display: none;
     }
 }
