@@ -1,10 +1,4 @@
-.logo {
-    display: flex;
-    align-items:center;
-    padding-left: 17px;
-}
-
-nav {
+.header {
     display: flex;
     justify-content: space-between;
     max-width: 85%;
@@ -13,6 +7,12 @@ nav {
     background-color: rgba(123, 74, 226, 0.05);
     border-radius: 16px;
     margin-top: 38px;
+}
+
+.logo {
+    display: flex;
+    align-items:center;
+    padding-left: 17px;
 }
 
 ul {
