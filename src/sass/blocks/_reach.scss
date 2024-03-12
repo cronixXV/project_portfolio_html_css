@@ -1,5 +1,6 @@
 .reach {
     max-width: 85%;
+    margin: 0 auto;
     margin-top: 141px;
 }
 
@@ -8,9 +9,19 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 90px;
     &_article {
         margin-bottom: 28px;
+        color: rgb(123, 74, 226);
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 23px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 16px;
+        background: rgba(123, 74, 226, 0.1);
+        width: 160px;
+        height: 45px;
     }
     &_title {
         margin-bottom: 64px;
@@ -20,7 +31,7 @@
 .reach__btn {
     position: relative;
     margin-top: 111px;
-    margin-left: 440px;
+    margin-left: 340px;
     width: 246px;
     height: 60px;
     background: rgb(9, 14, 22);
@@ -43,7 +54,7 @@
 .mail {
     position: relative;
     top: -105px;
-    margin-left: 770px;
+    margin-left: 700px;
     &__icon {
         width: 32px;
         height: 32px;
@@ -73,7 +84,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 220px;
 }
 
 .page__text {

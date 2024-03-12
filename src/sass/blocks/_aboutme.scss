@@ -29,10 +29,24 @@
     }
 }
 
+.me {
+    color: rgb(123, 74, 226);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background: rgba(123, 74, 226, 0.1);
+    width: 160px;
+    height: 45px;
+}
+
 .me__article {
     margin-bottom: 140px;
     margin-right: 50px;
-    color: $third-color;
+    color: rgba(255, 255, 255, 0.5);
     font-size: 17px;
     font-weight: 400;
     line-height: 25px;

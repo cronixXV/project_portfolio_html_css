@@ -1,13 +1,15 @@
 .footer {
     margin-top: 205px;
     width: 100%;
-    height: 88px;
+    min-height: 88px;
+    margin: 0 auto;
     background: rgba(123, 74, 226, 0.1);
     &__article {
         display: flex;
         flex-direction: row;
         align-items: center;
         margin: 32px 40px;
+
         &_title {
             color: rgba(255, 255, 255, 0.5);
             font-size: 16px;
@@ -15,16 +17,16 @@
             line-height: 19px;
         }
     }
+
     &__contacts {
+        width: 360px;
         display: flex;
-        justify-content: center;
+        justify-content: flex-end;
         align-items: center;
+        margin-top: 5px;
         &_contact {
-            position: relative;
-            left: 250px;
             width: 38px;
             height: 38px;
         }
     }
 }
-

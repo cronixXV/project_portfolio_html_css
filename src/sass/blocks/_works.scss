@@ -17,6 +17,11 @@
     font-weight: 700;
     line-height: 23px;
     text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background: rgba(123, 74, 226, 0.1);
 }
 
 .btn {
