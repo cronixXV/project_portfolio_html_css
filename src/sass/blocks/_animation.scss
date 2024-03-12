@@ -36,7 +36,7 @@ li a:hover {
 .write__whatsapp.active,
 .write__whatsapp:hover {
     transition: all .3s ease-in-out;
-    font-weight: 900;
+    font-weight: 800;
     text-decoration: none;
 }
 
@@ -44,5 +44,68 @@ li a:hover {
 .experience__item:hover {
     background: rgba(123, 74, 226, 0.1);
     border: none;
+    transition: all .3s ease-in-out;
+}
+
+.btn__projects.active,
+.btn__projects:hover {
+    background: rgba(123, 74, 226, 0.1);
+    border: none;
+    transition: all .3s ease-in-out;
+}
+
+.btn__work.active,
+.btn__work:hover {
+    border-radius: 8px;
+    background: rgba(74, 226, 144, 0.3);
+    border: none;
+    transition: all .3s ease-in-out;
+}
+
+.btn__work_descr.active,
+.btn__work_descr:hover {
+    color: rgb(74, 226, 144);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: center;
+}
+
+.link__github.active,
+.link__github:hover {
+    color: rgba(123, 74, 226, 0.5);
+    font-size: 21px;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+}
+
+.reach__whatsapp.active,
+.reach__whatsapp:hover {
+    transition: all .3s ease-in-out;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.mail__example.active,
+.mail__example:hover {
+    font-size: 21px;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+}
+
+.mail__link .active,
+.mail__link:hover {
+    text-decoration: none;
+}
+
+.page__text.active,
+.page__text:hover {
+    font-size: 21px;
+    transition: all .3s ease-in-out;
+}
+
+.pageup__link.active,
+.pageup__link:hover {
+    text-decoration: none;
     transition: all .3s ease-in-out;
 }

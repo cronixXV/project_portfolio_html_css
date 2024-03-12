@@ -3,6 +3,7 @@
 
 @import "base/variables";
 
+
 * {
     font-family: 'Raleway', sans-serif;
     margin: 0;
@@ -14,7 +15,11 @@
 @import "blocks/animation";
 @import "blocks/aboutme";
 @import "blocks/menu";
+@import "blocks/works";
 @import "blocks/preview";
 @import "blocks/experience";
 @import "blocks/button";
+@import "blocks/stack";
+@import "blocks/reach";
+@import "blocks/footer";
 @import "blocks/general";
