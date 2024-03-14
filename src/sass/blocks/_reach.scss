@@ -95,6 +95,11 @@
 }
 
 @media screen and (max-width: 767px) {
+
+    .reach {
+        margin-top: 5px;
+    }
+
     .reach__me {
         margin-right: 100px !important;
         &_article {
@@ -120,4 +125,51 @@
         bottom: 50px
     }
 
+}
+
+@media screen and (max-width: 575px) {
+    .reach {
+        margin-top: 0px;
+    }
+
+    .reach__me_article {
+        margin-left: 510px;
+    }
+
+    .reach__me_title {
+        margin-left: 210px;
+        text-wrap: nowrap;
+    }
+
+    .reach__btn {
+        position: relative;
+        left: 125px;
+    }
+
+    .mail__icon {
+       margin-left: 220px;
+    }
+
+    .mail__article {
+        margin-left: 205px;
+    }
+
+    .mail__link {
+        position: relative;
+        left: 122px;
+    }
+
+    .mail__img {
+        margin-left: 220px;
+        margin-top: 10px;
+    }
+
+    .pageup {
+        margin-left: 530px;
+    }
+
+    .pageup__arrow {
+        margin-top: 20px;
+        margin-left: 22px;
+    }
 }

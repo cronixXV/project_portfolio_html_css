@@ -59,6 +59,20 @@
         flex-wrap: wrap;
         margin: 0 auto;
     }
-
-    
 }
+
+@media screen and (max-width: 575px) {
+    .me__icon {
+        margin-left: 85px;
+        margin-top: -190px;
+    }
+
+    .me {
+        margin-left: 160px;
+    }
+
+    .me__article {
+        margin-left: 30px;
+    }
+}
+

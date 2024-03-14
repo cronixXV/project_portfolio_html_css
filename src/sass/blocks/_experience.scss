@@ -81,6 +81,11 @@ h2 {
 }
 
 @media screen and (max-width: 767px) {
+
+    .experience {
+        margin-top: 5px;
+    }
+
     .experience__items {
         display: grid !important;
         grid-template-columns: repeat(1, 1fr) !important; 
@@ -88,5 +93,13 @@ h2 {
 
     .descr {
         display: none;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .experience {
+        position: relative;
+        bottom: 200px;
+        left: 10px;
     }
 }
