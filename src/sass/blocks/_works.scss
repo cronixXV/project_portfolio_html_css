@@ -12,11 +12,16 @@
     width: 162px;
     height: 45px;
     margin-bottom: 28px;
-    color: rgb(123, 74, 226);
+    color: $text-color;
     font-size: 20px;
     font-weight: 700;
     line-height: 23px;
     text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background: $fifth-color;
 }
 
 .btn {
@@ -29,15 +34,15 @@
         margin-bottom: 100px;
         width: 180px;
         height: 60px;
-        background: rgb(9, 14, 22);
+        background: $main-color;
         box-sizing: border-box;
-        border: 1px solid rgba(123, 74, 226, 0.5);
+        border: 1px solid $fourth-color;
         border-radius: 16px;
         &_article {
         display: flex;
         justify-content: center;
         align-items:center;
-        color: rgba(123, 74, 226, 0.5);
+        color: $fourth-color;
         font-size: 20px;
         font-weight: 600;
         line-height: 23px;
@@ -55,12 +60,12 @@
     width: 83px;
     height: 30px;
     border-radius: 8px;
-    background: rgba(123, 74, 226, 0.1);
+    background: $fifth-color;
         &_descr {
             display: flex;
             justify-content: center;
             align-items:center;
-            color: rgb(123, 74, 226);
+            color: $text-color;
             font-size: 13px;
             font-weight: 700;
             line-height: 19px;
@@ -86,7 +91,7 @@
 .example__card {
     box-sizing: border-box;
     border-radius: 16px;
-    border: 1px solid rgba(123, 74, 226, 0.5);
+    border: 1px solid $fourth-color;
     &_img {
         margin: 30px;
         width: 300px;
@@ -100,7 +105,7 @@
     display: flex;
     justify-content: flex-start;
     margin: 27px 30px;
-    color: rgb(255, 255, 255);
+    color: $second-text-color;
     font-size: 20px;
     font-weight: 700;
     line-height: 23px;
@@ -112,7 +117,7 @@
     display: flex;
     justify-content: flex-start;
     margin: 9px 30px;
-    color: rgba(255, 255, 255, 0.5);
+    color: $third-color;
     font-size: 14px;
     font-weight: 400;
     line-height: 16px;
@@ -125,11 +130,17 @@
     margin-top: 598px;
     margin-right: 30px;
     &__github {
-        color: rgba(123, 74, 226, 0.5);
+        color: $fourth-color;
         font-size: 20px;
         font-weight: 600;
         line-height: 23px;
         text-align: left;
         text-decoration-line: underline;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .works {
+        display: none;
     }
 }
