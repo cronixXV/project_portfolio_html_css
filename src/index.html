@@ -3,29 +3,104 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
 
     <title>Portfolio</title>
     <meta name="title" content="Мое портфолио" />
-    <meta name="description" content="Здесь вы можете ознакомиться с моими работами и узнать обо мне" />
-    <link rel="apple-touch-icon" sizes="57x57" href="icons/favicon/apple-icon-57x57.png" />
-    <link rel="apple-touch-icon" sizes="60x60" href="icons/favicon/apple-icon-60x60.png" />
-    <link rel="apple-touch-icon" sizes="72x72" href="icons/favicon/apple-icon-72x72.png" />
-    <link rel="apple-touch-icon" sizes="76x76" href="icons/favicon/apple-icon-76x76.png" />
-    <link rel="apple-touch-icon" sizes="114x114" href="icons/favicon/apple-icon-114x114.png" />
-    <link rel="apple-touch-icon" sizes="120x120" href="icons/favicon/apple-icon-120x120.png" />
-    <link rel="apple-touch-icon" sizes="144x144" href="icons/favicon/apple-icon-144x144.png" />
-    <link rel="apple-touch-icon" sizes="152x152" href="icons/favicon/apple-icon-152x152.png" />
-    <link rel="apple-touch-icon" sizes="180x180" href="icons/favicon/apple-icon-180x180.png" />
-    <link rel="icon" type="image/png" sizes="192x192" href="icons/favicon/android-icon-192x192.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="96x96" href="icons/favicon/favicon-96x96.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon/favicon-16x16.png" />
+    <meta
+      name="description"
+      content="Здесь вы можете ознакомиться с моими работами и узнать обо мне"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="icons/favicon/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="icons/favicon/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="icons/favicon/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="icons/favicon/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="icons/favicon/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="icons/favicon/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="icons/favicon/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="icons/favicon/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="icons/favicon/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="icons/favicon/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="icons/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="icons/favicon/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="icons/favicon/favicon-16x16.png"
+    />
     <link rel="manifest" href="icons/favicon/manifest.json" />
     <meta name="msapplication-TileColor" content="#ffffff" />
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
     <meta name="theme-color" content="#ffffff" />
     <link rel="stylesheet" href="css/style.min.css" />
+    <script>
+      window.onload = function () {
+        document
+          .querySelector(".pageup__link")
+          .addEventListener("click", function (e) {
+            e.preventDefault();
+            window.scrollTo({
+              top: 0,
+              behavior: "smooth",
+            });
+          });
+      };
+    </script>
   </head>
   <body>
     <header>
@@ -54,9 +129,15 @@
         <p class="profession">Веб-разработчик · UI дизайнер</p>
       </div>
       <div class="cnts">
-        <a href="#" class="contacts"><img src="icons/contact/linkedinin.svg" alt="linkedin" /></a>
-        <a href="#" class="contacts"><img src="icons/contact/github.svg" alt="github" /></a>
-        <a href="#" class="contacts"><img src="icons/contact/behance.svg" alt="behance" /></a>
+        <a href="#" class="contacts"
+          ><img src="icons/contact/linkedinin.svg" alt="linkedin"
+        /></a>
+        <a href="#" class="contacts"
+          ><img src="icons/contact/github.svg" alt="github"
+        /></a>
+        <a href="#" class="contacts"
+          ><img src="icons/contact/behance.svg" alt="behance"
+        /></a>
       </div>
     </section>
 
@@ -71,7 +152,14 @@
       </a>
 
       <button class="write__me">
-        <span class="write__whatsapp"><img class="lw" src="icons/contact/WhatsappLogo.svg" alt="WhatsApp" /> Написать в WhatsApp</span>
+        <span class="write__whatsapp"
+          ><img
+            class="lw"
+            src="icons/contact/WhatsappLogo.svg"
+            alt="WhatsApp"
+          />
+          Написать в WhatsApp</span
+        >
       </button>
     </section>
 
@@ -134,11 +222,14 @@
           <span class="me">🧐 Обо мне</span>
           <h1>Меня зовут Егор Груздев</h1>
           <p class="me__article">
-            👋 Привет! Можешь позвонить мне. С удовольствием проконсультирую! <br />👨‍💻 Более 2 лет разрабатываю интерфейсы и программирую на
+            👋 Привет! Можешь позвонить мне. С удовольствием проконсультирую!
+            <br />👨‍💻 Более 2 лет разрабатываю интерфейсы и программирую на
             JavaScript, React.js и Typescript. <br />
-            🎓 Выпускник факультета "Системный анализ и разработка". <br />
-            💡 Интересуюсь веб-разработкой на JavaScript, TypeScript, React.js и UX/UI. <br />
-            🚀 Постоянно развиваюсь и каждый день стараюсь становиться немного лучше.
+            <!-- 🎓 Выпускник факультета "Системный анализ и разработка". <br /> -->
+            💡 Интересуюсь веб-разработкой на JavaScript, TypeScript, React.js и
+            UX/UI. <br />
+            🚀 Постоянно развиваюсь и каждый день стараюсь становиться немного
+            лучше.
           </p>
         </div>
       </div>
@@ -152,13 +243,22 @@
 
       <div class="btn">
         <button class="btn__projects">
-          <span class="btn__projects btn__projects_article"><img class="ux" src="icons/design/DesignIcon.svg" alt="UX" /> UX Дизайн</span>
+          <span class="btn__projects btn__projects_article"
+            ><img class="ux" src="icons/design/DesignIcon.svg" alt="UX" /> UX
+            Дизайн</span
+          >
         </button>
         <button class="btn__projects">
-          <span class="btn__projects btn__projects_article"><img class="ux" src="icons/design/icondesign.svg" alt="UX" /> Дизайн</span>
+          <span class="btn__projects btn__projects_article"
+            ><img class="ux" src="icons/design/icondesign.svg" alt="UX" />
+            Дизайн</span
+          >
         </button>
         <button class="btn__projects">
-          <span class="btn__projects btn__projects_article"><img class="ux" src="icons/design/DesignIcon.svg" alt="UX" /> UI Дизайн</span>
+          <span class="btn__projects btn__projects_article"
+            ><img class="ux" src="icons/design/DesignIcon.svg" alt="UX" /> UI
+            Дизайн</span
+          >
         </button>
       </div>
 
@@ -180,7 +280,10 @@
               </button>
             </div>
             <div class="example__card example__card_img">
-              <img src="img/projectsexamples/projectexample.jpg" alt="exampleOfProject" />
+              <img
+                src="img/projectsexamples/projectexample.jpg"
+                alt="exampleOfProject"
+              />
             </div>
           </div>
 
@@ -200,7 +303,10 @@
               </button>
             </div>
             <div class="example__card example__card_img">
-              <img src="img/projectsexamples/projectexample.jpg" alt="exampleOfProject" />
+              <img
+                src="img/projectsexamples/projectexample.jpg"
+                alt="exampleOfProject"
+              />
             </div>
           </div>
 
@@ -220,7 +326,10 @@
               </button>
             </div>
             <div class="example__card example__card_img">
-              <img src="img/projectsexamples/projectexample.jpg" alt="exampleOfProject" />
+              <img
+                src="img/projectsexamples/projectexample.jpg"
+                alt="exampleOfProject"
+              />
             </div>
           </div>
 
@@ -240,7 +349,10 @@
               </button>
             </div>
             <div class="example__card example__card_img">
-              <img src="img/projectsexamples/projectexample.jpg" alt="exampleOfProject" />
+              <img
+                src="img/projectsexamples/projectexample.jpg"
+                alt="exampleOfProject"
+              />
             </div>
           </div>
 
@@ -260,7 +372,10 @@
               </button>
             </div>
             <div class="example__card example__card_img">
-              <img src="img/projectsexamples/projectexample.jpg" alt="exampleOfProject" />
+              <img
+                src="img/projectsexamples/projectexample.jpg"
+                alt="exampleOfProject"
+              />
             </div>
           </div>
 
@@ -280,7 +395,10 @@
               </button>
             </div>
             <div class="example__card example__card_img">
-              <img src="img/projectsexamples/projectexample.jpg" alt="exampleOfProject" />
+              <img
+                src="img/projectsexamples/projectexample.jpg"
+                alt="exampleOfProject"
+              />
             </div>
           </div>
         </div>
@@ -294,32 +412,94 @@
     <section class="skills">
       <div class="skills__article">
         <span class="skills__article skills__article_title">🧑‍💻 Навыки</span>
-        <h1 class="skills__article skills__article_stack">Основые технологии</h1>
-        <p class="skills__article skills__article_descr">Технологии, которыми я пользуюсь ежедневно</p>
+        <h1 class="skills__article skills__article_stack">
+          Основые технологии
+        </h1>
+        <p class="skills__article skills__article_descr">
+          Технологии, которыми я пользуюсь ежедневно
+        </p>
       </div>
 
       <div class="img__stack">
-        <img class="img__stack img__stack_icon" src="icons/stack/react.svg" alt="react" />
-        <img class="img__stack img__stack_icon" src="icons/stack/Javascript.svg" alt="js" />
-        <img class="img__stack img__stack_icon" src="icons/stack/TypeScript.svg" alt="ts" />
-        <img class="img__stack img__stack_icon" src="icons/stack/Nextjs.svg" alt="next" />
-        <img class="img__stack img__stack_icon" src="icons/stack/css.svg" alt="css" />
-        <img class="img__stack img__stack_icon" src="icons/stack/HTML5.svg" alt="html5" />
-        <img class="img__stack img__stack_icon" src="icons/stack/Figma2.svg" alt="f2" />
-        <img class="img__stack img__stack_icon" src="icons/stack/Github.svg" alt="gh" />
-        <img class="img__stack img__stack_icon" src="icons/stack/git.svg" alt="git" />
-        <img class="img__stack img__stack_icon" src="icons/stack/Insomnia.svg" alt="insomnia" />
+        <img
+          class="img__stack img__stack_icon"
+          src="icons/stack/react.svg"
+          alt="react"
+        />
+        <img
+          class="img__stack img__stack_icon"
+          src="icons/stack/Javascript.svg"
+          alt="js"
+        />
+        <img
+          class="img__stack img__stack_icon"
+          src="icons/stack/TypeScript.svg"
+          alt="ts"
+        />
+        <img
+          class="img__stack img__stack_icon"
+          src="icons/stack/Nextjs.svg"
+          alt="next"
+        />
+        <img
+          class="img__stack img__stack_icon"
+          src="icons/stack/css.svg"
+          alt="css"
+        />
+        <img
+          class="img__stack img__stack_icon"
+          src="icons/stack/HTML5.svg"
+          alt="html5"
+        />
+        <img
+          class="img__stack img__stack_icon"
+          src="icons/stack/Figma2.svg"
+          alt="f2"
+        />
+        <img
+          class="img__stack img__stack_icon"
+          src="icons/stack/Github.svg"
+          alt="gh"
+        />
+        <img
+          class="img__stack img__stack_icon"
+          src="icons/stack/git.svg"
+          alt="git"
+        />
+        <img
+          class="img__stack img__stack_icon"
+          src="icons/stack/Insomnia.svg"
+          alt="insomnia"
+        />
       </div>
 
       <div class="skills__article">
-        <p class="skills__article skills__article_descr">Другие технологии, с которыми я работаю</p>
+        <p class="skills__article skills__article_descr">
+          Другие технологии, с которыми я работаю
+        </p>
       </div>
 
       <div class="img__stack">
-        <img class="img__stack img__stack_icon" src="icons/stack/Vue.svg" alt="vue" />
-        <img class="img__stack img__stack_icon" src="icons/stack/Nodejs.svg" alt="node" />
-        <img class="img__stack img__stack_icon" src="icons/stack/Docker.svg" alt="docker" />
-        <img class="img__stack img__stack_icon" src="icons/stack/sass.svg" alt="sass" />
+        <img
+          class="img__stack img__stack_icon"
+          src="icons/stack/Vue.svg"
+          alt="vue"
+        />
+        <img
+          class="img__stack img__stack_icon"
+          src="icons/stack/Nodejs.svg"
+          alt="node"
+        />
+        <img
+          class="img__stack img__stack_icon"
+          src="icons/stack/Docker.svg"
+          alt="docker"
+        />
+        <img
+          class="img__stack img__stack_icon"
+          src="icons/stack/sass.svg"
+          alt="sass"
+        />
       </div>
     </section>
 
@@ -331,31 +511,59 @@
 
       <div class="buttons">
         <button class="reach__btn">
-          <span class="reach__whatsapp"><img class="lw" src="icons/contact/WhatsappLogo.svg" alt="WhatsApp" /> Написать в WhatsApp</span>
+          <span class="reach__whatsapp"
+            ><img
+              class="lw"
+              src="icons/contact/WhatsappLogo.svg"
+              alt="WhatsApp"
+            />
+            Написать в WhatsApp</span
+          >
         </button>
       </div>
 
       <div class="mail">
         <img class="mail__icon" src="icons/contact/email.svg" alt="email" />
         <p class="mail__article">Почта</p>
-        <a class="mail__link" href="#"><p class="mail__example">egruzdev14@gmail.com</p></a>
-        <img class="mail__img" src="icons/contact/CopySimple.svg" alt="square" />
+        <a class="mail__link" href="#"
+          ><p class="mail__example">egruzdev14@gmail.com</p></a
+        >
+        <img
+          class="mail__img"
+          src="icons/contact/CopySimple.svg"
+          alt="square"
+        />
       </div>
 
       <div class="pageup">
-        <a class="pageup__link" href="#header">
-          <p class="page__text">Наверх <img class="pageup__arrow" src="icons/others/ArrowUp.svg" alt="up" /></p>
+        <a class="pageup__link">
+          <p class="page__text">
+            Наверх
+            <img
+              class="pageup__arrow"
+              src="icons/others/ArrowUp.svg"
+              alt="up"
+            />
+          </p>
         </a>
       </div>
     </section>
 
     <footer class="footer">
       <div class="footer__article">
-        <p class="footer__article footer__article_title">Portfolio &copy; 2024. Все права защищены.</p>
+        <p class="footer__article footer__article_title">
+          Portfolio &copy; 2024. Все права защищены.
+        </p>
         <div class="footer__contacts">
-          <a href="#" class="footer__contacts footer__contacts_contact"><img src="icons/contact/linkedinin.svg" alt="linkedin" /></a>
-          <a href="#" class="footer__contacts footer__contacts_contact"><img src="icons/contact/github.svg" alt="github" /></a>
-          <a href="#" class="footer__contacts footer__contacts_contact"><img src="icons/contact/behance.svg" alt="behance" /></a>
+          <a href="#" class="footer__contacts footer__contacts_contact"
+            ><img src="icons/contact/linkedinin.svg" alt="linkedin"
+          /></a>
+          <a href="#" class="footer__contacts footer__contacts_contact"
+            ><img src="icons/contact/github.svg" alt="github"
+          /></a>
+          <a href="#" class="footer__contacts footer__contacts_contact"
+            ><img src="icons/contact/behance.svg" alt="behance"
+          /></a>
         </div>
       </div>
     </footer>
